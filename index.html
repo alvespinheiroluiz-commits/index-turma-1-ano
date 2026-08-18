@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+# Blog do Grêmio Foot-Ball Porto Alegrense
+=======
+<<<<<<< HEAD
 # Blog do Grêmio Foot-Ball Porto Alegrense
 
 ```html
@@ -210,30 +214,201 @@
             </ul>
         </article>
 >>>>>>> 36a48d1a93a5e9a032b252ae9b5e31fb7bc3cc33
+>>>>>>> 4cfbcc0b4c8b3e2471a6bff0a2046401c4348a3a
 
-        <hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do Grêmio</title>
 
-        <article class="post">
-            <h2>Por onde começar nos estudos de Front-End?</h2>
-            <p><em>Por: Luiz Ricardo</em></p>
-            <p>Se você quer criar sites e aplicações web bonitas e funcionais, o caminho das pedras começa na base da Web:</p>
-            <ol>
-                <li><strong>HTML5:</strong> Para estruturar o conteúdo do site.</li>
-                <li><strong>CSS3:</strong> Para estilizar, criar layouts e deixar tudo responsivo.</li>
-                <li><strong>JavaScript:</strong> Para dar vida e interatividade à página.</li>
-            </ol>
-            <p>Depois de dominar essa tríade, aí sim vale a pena escolher um framework moderninho como React, Vue ou Angular!</p>
-        </article>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        <hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+        }
 
-        <article class="post">
-            <h2>Ferramentas Indispensáveis para Desenvolvedores em Inicio de Carreira</h2>
-            <p><em>Por: Luiz Ricardo</em></p>
-            <p>Além de saber codar, conhecer as ferramentas certas aumenta muito a sua produtividade no dia a dia. Confira as minhas favoritas:</p>
-            <ul>
-                <li><strong>VS Code:</strong> O editor de código mais popular e cheio de extensões úteis.</li>
-                <li><strong>Git e GitHub:</strong> Para versionar seu código e montar seu portfólio.</li>
-                <li><strong>Postman:</strong> Excelente para testar requisições de APIs de forma prática.</li>
-            </ul>
-        </article>
+        header {
+            background: linear-gradient(135deg, #0080c8, #000);
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #111;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00a9e0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        .destaque {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        .destaque h2 {
+            color: #006da8;
+            margin-bottom: 15px;
+        }
+
+        .posts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .post {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        .post h3 {
+            color: #0077b6;
+            margin-bottom: 12px;
+        }
+
+        .post p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        .azul {
+            color: #008bd2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>💙🖤 Blog do Grêmio</h1>
+        <p>Paixão, história e notícias do Tricolor Gaúcho</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#historia">História</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#torcida">Torcida</a>
+    </nav>
+
+    <main class="container">
+
+        <section id="inicio" class="destaque">
+            <h2>Bem-vindo ao Blog do Grêmio!</h2>
+            <p>
+                Este é um espaço dedicado aos torcedores do Grêmio Foot-Ball
+                Porto Alegrense. Aqui você encontra conteúdos sobre a história
+                do clube, a torcida, grandes conquistas e o futebol tricolor.
+            </p>
+        </section>
+
+        <section id="historia" class="destaque">
+            <h2>🏆 A história do Tricolor</h2>
+            <p>
+                Fundado em 15 de setembro de 1903, o Grêmio construiu uma
+                trajetória marcada por grandes jogadores, títulos importantes
+                e momentos inesquecíveis para sua torcida.
+            </p>
+            <br>
+            <p>
+                O clube é conhecido pelas cores azul, preto e branco e possui
+                uma das torcidas mais apaixonadas do futebol brasileiro.
+            </p>
+        </section>
+
+        <section id="noticias">
+            <h2 class="azul">📰 Destaques</h2>
+
+            <div class="posts">
+
+                <article class="post">
+                    <h3>⚽ O Tricolor em campo</h3>
+                    <p>
+                        Acompanhe análises, comentários e informações sobre os
+                        jogos do Grêmio e o desempenho da equipe durante a temporada.
+                    </p>
+                </article>
+
+                <article class="post">
+                    <h3>🏆 Grandes conquistas</h3>
+                    <p>
+                        Relembre momentos históricos do Grêmio e as conquistas
+                        que marcaram gerações de torcedores.
+                    </p>
+                </article>
+
+                <article class="post">
+                    <h3>💙 A força da torcida</h3>
+                    <p>
+                        A torcida gremista é parte fundamental da identidade do
+                        clube. Sua paixão transforma cada partida em um espetáculo.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="torcida" class="destaque" style="margin-top: 25px;">
+            <h2>💙🖤 Uma paixão que atravessa gerações</h2>
+            <p>
+                Ser gremista é carregar uma história de paixão, tradição e
+                orgulho. O Tricolor faz parte da vida de milhões de torcedores
+                dentro e fora do Rio Grande do Sul.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>🇪🇪 Blog do Grêmio — Feito por um torcedor tricolor</p>
+        <p>© 2026</p>
+    </footer>
+
+</body>
+</html>
+```
+=======
